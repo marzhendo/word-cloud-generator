@@ -9,7 +9,7 @@ A simple and clean web-based application to create beautiful, high-resolution wo
 
 * **Dynamic Generation:** Instantly generate a word cloud from any text you paste.
 * **Shape Customization:** Choose from various shapes like circle, square, diamond, star, and triangle to frame your word cloud.
-* **Custom Color Palettes:** (Currently set to a warm color theme). The logic supports custom color arrays for different moods.
+* **Custom Color Palettes:** (Currently set to a dark color theme). 
 * **High-Resolution Output:** Utilizes HTML5 Canvas rendering at a high device-pixel-ratio to produce crisp, non-blurry images.
 * **Stop Word Filtering:** Automatically ignores common, unimportant words (like 'and', 'the', 'a') to provide more meaningful results.
 * **Responsive Layout:** A clean, two-column layout that works well on different screen sizes.
