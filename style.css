@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Libertinus Sans', 'Montserrat', 'sans-serif';
+    background-color: #F1F3F5;
+    text-align: center;
+    background-image: linear-gradient(to top right, #FFFFFF, #E9ECEF);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+
+.controls, .result {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.controls {
+    flex: 1;
+}
+
+.result {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#generate-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(0, 123, 255, 0.3)
+}
+#generate-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+}
+
+#generate-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to bottom, #56a7f2, #007BFF);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgb(0, 123, 255, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+#wordcloud-canvas {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}

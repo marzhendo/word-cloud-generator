@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Cloud Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>WORD CLOUD GENERATOR</h1>
+    <div class="container">
+        <div class="controls">
+            <h2>Panel Kontrol</h2>
+            <p>Masukkan teks di bawah ini:</p>
+            <textarea id="text-input" rows="15" placeholder="Ketik atau tempel teks..."></textarea>
+            <div class="controls">
+                <label for="shape-select">Bentuk:</label>
+                <select id="shape-select">
+                    <option value="circle" selected>Lingkaran</option>
+                    <option value="square">Kotak</option>
+                    <option value="diamond">Berlian</option>
+                    <option value="triangle">Segitiga</option>
+                    <option value="star">Bintang</option>
+                </select>
+            </div>
+            <button id="generate-btn">Generate!</button>
+        </div>
+
+        <div class="result">
+            <canvas id="wordcloud-canvas" width="400" height="400"></canvas>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy;2025 Z'Company. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
