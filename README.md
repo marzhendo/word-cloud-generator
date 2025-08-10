@@ -3,8 +3,7 @@
 
 A simple and clean web-based application to create beautiful, high-resolution word clouds from any text. Built with vanilla JavaScript and the WordCloud2.js library.
 
-![Project Screenshot](https://i.imgur.com/G5g2mXO.png) 
----
+
 
 ## ✨ Features
 
